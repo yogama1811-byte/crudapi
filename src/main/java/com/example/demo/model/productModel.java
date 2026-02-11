@@ -1,6 +1,6 @@
 package com.example.demo.model;
 
-public class Model {
+public class productModel {
 
 	private int id;
 	private String name;
@@ -13,7 +13,7 @@ public class Model {
 	 * @param price
 	 * @param qty
 	 */
-	public Model(int id, String name, int price, int qty) {
+	public productModel(int id, String name, int price, int qty) {
 		this.id = id;
 		this.name = name;
 		this.price = price;
